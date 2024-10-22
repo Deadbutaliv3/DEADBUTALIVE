@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DEADBUTALIVE Clothing Brand</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #222;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            perspective: 1000px; /* Enables 3D effect */
+        }
+        h1 {
+            font-family: 'Georgia', serif;
+            font-size: 36px;
+            transform: rotateY(10deg); /* Adds 3D rotation */
+        }
+        nav {
+            margin: 20px 0;
+        }
+        nav a {
+            color: #9b59b6; /* Purple hint */
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        section {
+            padding: 20px;
+            margin: 20px;
+            background-color: white;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #222;
+            color: white;
+        }
+        .social-links {
+            margin-top: 15px;
+        }
+        .social-links a {
+            color: #9b59b6;
+            margin: 0 10px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .posts {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+        .post {
+            width: 30%;
+            margin: 10px;
+            background-color: #eaeaea;
+            padding: 10px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            transition: transform 0.2s;
+        }
+        .post:hover {
+            transform: scale(1.05); /* 3D effect on hover */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>DEADBUTALIVE</h1>
+        <nav>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#goals">Goals</a>
+            <a href="#posts">Our Posts</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>At DEADBUTALIVE, we specialize in creating high-quality clothing that embodies style and comfort. From trendy shirts and cozy hoodies to stylish hats and beanies, we have something for everyone.</p>
+        <p>Our mission is to have faith in Christ and to spread the gospel to everyone around the world, sharing the love and awareness that Jesus Christ is King.</p>
+    </section>
+
+    <section id="services">
+        <h2>Our Services</h2>
+        <p>We offer a range of clothing options tailored to meet your fashion needs. Our products are designed with premium materials and attention to detail to ensure customer satisfaction.</p>
+    </section>
+
+    <section id="goals">
+        <h2>Our Goals</h2>
+        <p>We aim to provide unique and stylish clothing while promoting self-expression and confidence in our customers. Our goal is to inspire and uplift through fashion.</p>
+    </section>
+
+    <section id="posts">
+        <h2>Our Posts</h2>
+        <div class="posts">
+            <div class="post">
+                <h3>New Hoodie Collection</h3>
+                <p>Check out our latest cozy hoodies perfect for the fall season!</p>
+            </div>
+            <div class="post">
+                <h3>Limited Edition Beanies</h3>
+                <p>Grab our limited edition beanies before they're gone!</p>
+            </div>
+            <div class="post">
+                <h3>Summer Shirt Launch</h3>
+                <p>Explore our vibrant new summer shirt designs!</p>
+            </div>
+            <!-- Add more posts as needed -->
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>For inquiries or feedback, please reach out to us at:</p>
+        <p>Email: info@deadbutalive.com</p>
+        <p>Phone: (123) 456-7890</p>
+        <div class="social-links">
+            <h3>Follow Us</h3>
+            <a href="https://www.instagram.com/d3adbutaliv3" target="_blank">Instagram</a>
+            <a href="https://www.tiktok.com/@deadbutalive33" target="_blank">TikTok</a>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 DEADBUTALIVE. All rights reserved.</p>
+    </footer>
+</body>
+</html>
